@@ -1,0 +1,61 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+body{
+  background: rgb(0,191,143);
+  background: linear-gradient(90deg, rgba(0,191,143,1) 0%, rgba(0,21,16,1) 61%);
+}
+#cabeçalho{
+  margin: 30px;
+}
+.materia{
+  height: 50px;
+  color: white;
+  text-align: center;
+}
+.professora{
+  color: white;
+  text-align: center;
+}
+#disposição-aulas{
+}
+.linha{
+  display: flex;
+  justify-content: space-evenly;
+}
+.aulas{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: rgb(193,193,193,0.5);
+  height: 65px;
+  width: 200px;
+  border-radius: 15px;
+  text-align: center;
+  margin: 10px; 
+}
+.link{
+  height: 65px;
+  width: 200px;
+  color: white;
+  border-radius: 15px;
+}
+p{
+  margin: 5px;
+}
+.link:hover{
+  background: rgb(11,245,148,0.4);
+}
+.link:active 
+{
+  text-decoration: none
+}
+.link:link {
+  text-decoration: none;
+}
+.link:visited {
+  text-decoration: none;
+}
